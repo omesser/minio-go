@@ -23,8 +23,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/minio/minio-go"
-	"github.com/minio/minio-go/pkg/encrypt"
+	"github.com/omesser/minio-go"
+	"github.com/omesser/minio-go/pkg/encrypt"
 )
 
 func main() {

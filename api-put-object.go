@@ -26,8 +26,8 @@ import (
 	"runtime/debug"
 	"sort"
 
-	"github.com/minio/minio-go/pkg/encrypt"
-	"github.com/minio/minio-go/pkg/s3utils"
+	"github.com/omesser/minio-go/pkg/encrypt"
+	"github.com/omesser/minio-go/pkg/s3utils"
 	"golang.org/x/net/http/httpguts"
 )
 
