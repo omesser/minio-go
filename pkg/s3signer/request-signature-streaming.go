@@ -272,7 +272,7 @@ func (s *StreamingReader) Read(buf []byte) (int, error) {
 					(s.chunkNum == s.totalChunks-1 &&
 						s.chunkBufLen == s.lastChunkSize) {
 					// Sign the chunk and write it to s.buf.
-					s.signChunk(s.chunkBufLen)
+					//s.signChunk(s.chunkBufLen)
 					break
 				}
 			}
@@ -289,7 +289,7 @@ func (s *StreamingReader) Read(buf []byte) (int, error) {
 					}
 
 					// Sign the chunk and write it to s.buf.
-					s.signChunk(0)
+					//s.signChunk(0)
 					break
 				}
 				return 0, err
